@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:webauthn-conformance-and-audit-contract",
+  "number": 2005,
+  "slug": "webauthn-conformance-and-audit-contract",
+  "title": "WebAuthn Conformance And Audit Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines positive, negative, compatibility, and audit evidence.",
+  "body": "## Requirements\n\n- Test malformed client data, wrong origins, wrong RP IDs, invalid signatures, and replay.\n- Test supported authenticators, browsers, transports, and backup states.\n- Link ceremonies to authenticator lifecycle evidence.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.w3.org/TR/webauthn-3/",
+    "https://fidoalliance.org/specifications/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "webauthn",
+    "fido",
+    "passkeys",
+    "ctap",
+    "phishing-resistant"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:webauthn-is-the-relying-party-public-key-credential-surface",
+    "adr:attestation-policy-must-be-explicit",
+    "adr:passkey-sync-and-recovery-boundaries-must-be-declared"
+  ]
+}
